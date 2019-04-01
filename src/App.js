@@ -1,25 +1,28 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./style/main.scss";
+
+const Menu = React.lazy(() => import("./components/menu/Menu"));
+const Header = React.lazy(() => import("./components/header/Header"));
+const Content = React.lazy(() => import("./components/content/Content"));
+const Quotes = React.lazy(() => import("./components/quotes/Quotes"));
+const Timeline = React.lazy(() => import("./components/timeline/Timeline"));
+const MyGoal = React.lazy(() => import("./components/mygoal/MyGoal"));
+const Footer = React.lazy(() => import("./components/footer/Footer"));
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="container">
+        <React.Suspense fallback={<div>Loading...</div>}>
+          <Menu />
+          <Header />
+          <Content />
+          <Quotes />
+          <Timeline />
+          <MyGoal />
+          <Footer />
+        </React.Suspense>
       </div>
     );
   }
