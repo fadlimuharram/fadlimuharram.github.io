@@ -9,7 +9,7 @@ const ReactRedux = () => (
       src: img
     }}
     title="The Complete React Native and Redux Course"
-    completed="selesaikan pada januari 2018"
+    completed="selesaikan pada bulan September 2018"
     linkCertificate="https://www.udemy.com/certificate/UC-54S75ZG9/"
   />
 );

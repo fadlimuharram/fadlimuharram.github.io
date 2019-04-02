@@ -5,6 +5,7 @@ import NjsCourse from "./njsCourse/NjsCourse";
 import ReactRedux from "./reactredux/ReactRedux";
 import GraphQLReact from "./graphqlReact/GraphQLReact";
 import CodepolitanAndroidBasic from "./codepolitanAndroidBasic/CodepolitanAndroidBasic";
+import Made from "./made/Made";
 
 const Sertifikat = () => (
   <div id="serfitikat" className="tmclassName">
@@ -14,6 +15,7 @@ const Sertifikat = () => (
     <ReactRedux />
     <GraphQLReact />
     <CodepolitanAndroidBasic />
+    <Made />
   </div>
 );
 

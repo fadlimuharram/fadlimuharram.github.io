@@ -11,7 +11,7 @@ const Card2 = ({ title, desc, poto1, poto2, poto3, descTag, date }) => (
           <img
             alt={poto1.alt}
             className="composition--2__photo composition--2__photo--p1"
-            src={poto2.src}
+            src={poto1.src}
           />
           <img
             alt={poto2.alt}

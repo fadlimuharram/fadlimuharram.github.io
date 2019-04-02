@@ -9,7 +9,7 @@ const GraphQLReact = () => (
       alt: "GraphQL with react: The Complete Developer Guide",
       src: img
     }}
-    completed="selesaikan pada januari 2018"
+    completed="selesaikan pada bulan September 2018"
     linkCertificate="https://www.udemy.com/certificate/UC-GPTM69VT/"
   />
 );

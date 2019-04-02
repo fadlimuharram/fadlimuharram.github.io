@@ -9,7 +9,7 @@ const NjsCourse = () => (
       src: img
     }}
     title="The Complete Node.js Developer Course"
-    completed="selesaikan pada januari 2018"
+    completed="selesaikan pada bulan Mei 2018"
     linkCertificate="https://www.udemy.com/certificate/UC-ZHJZV7A3/"
   />
 );

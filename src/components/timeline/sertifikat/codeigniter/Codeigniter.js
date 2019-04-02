@@ -9,7 +9,7 @@ const Codeigniter = () => (
       src: img
     }}
     title="Khursus Codeigniter"
-    completed="selesaikan pada januari 2018"
+    completed="selesaikan pada bulan Mai 2016"
   />
 );
 

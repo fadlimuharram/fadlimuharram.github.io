@@ -9,7 +9,7 @@ const WebMaster = () => (
       src: img
     }}
     title="Khursus Web Master"
-    completed="selesaikan pada januari 2018"
+    completed="selesaikan pada bulan September 2016"
   />
 );
 

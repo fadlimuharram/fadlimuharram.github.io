@@ -9,7 +9,7 @@ const CodepolitanAndroidBasic = () => (
       alt: "Codepolitan Android Basic",
       src: img
     }}
-    completed="selesaikan pada januari 2018"
+    completed="selesaikan pada bulan Maret 2018"
     linkCertificate="https://devschool.id/c/DXgAo2S0"
   />
 );
