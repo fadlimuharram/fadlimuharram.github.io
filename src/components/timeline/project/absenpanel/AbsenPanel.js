@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../Card2";
+import Card from "../Card";
 import absen001 from "../../../../img/absensi_react001.png";
 import absen002 from "../../../../img/absensi_react002.png";
 import absen003 from "../../../../img/absensi_react003.png";

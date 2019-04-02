@@ -1,5 +1,5 @@
 import React from "react";
-
+import { LazyGroup } from "react-lazy";
 const Card = ({ title, desc, poto1, poto2, poto3, descTag, date }) => (
   <React.Fragment>
     <div className="timeline--content">
@@ -7,21 +7,23 @@ const Card = ({ title, desc, poto1, poto2, poto3, descTag, date }) => (
       <p>{desc}</p>
 
       <div className="composition">
-        <img
-          alt={poto1.alt}
-          className="composition__photo composition__photo--p1"
-          src={poto2.src}
-        />
-        <img
-          alt={poto2.alt}
-          className="composition__photo composition__photo--p2"
-          src={poto2.src}
-        />
-        <img
-          alt={poto3.alt}
-          className="composition__photo composition__photo--p3"
-          src={poto3.src}
-        />
+        <LazyGroup>
+          <img
+            alt={poto1.alt}
+            className="composition__photo composition__photo--p1"
+            src={poto2.src}
+          />
+          <img
+            alt={poto2.alt}
+            className="composition__photo composition__photo--p2"
+            src={poto2.src}
+          />
+          <img
+            alt={poto3.alt}
+            className="composition__photo composition__photo--p3"
+            src={poto3.src}
+          />
+        </LazyGroup>
       </div>
       <p className="topMargin">{descTag}</p>
     </div>

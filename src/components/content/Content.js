@@ -1,5 +1,6 @@
 import React from "react";
 import fadliImg from "../../img/fotogw.png";
+import { LazyGroup } from "react-lazy";
 
 const Content = () => {
   return (
@@ -7,10 +8,12 @@ const Content = () => {
       <div class="heading-secondary txtcenter" id="aboutme">
         about me
       </div>
+
       <div class="content__inside">
         <div class="content__picture">
           <img src={fadliImg} alt="Fadli" class="content__img" />
         </div>
+
         <div class="content__desc">
           <p>
             Hello... let me introduce myself, my name is fadli muharram and i
