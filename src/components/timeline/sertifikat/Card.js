@@ -21,6 +21,7 @@ const Card = ({ img, title, completed, desc, linkCertificate }) => (
         <a
           href={linkCertificate}
           target="_blank"
+          rel="noopener"
           class="sertifikat--body__link btn-text"
         >
           lihat sertifikat &rarr;
