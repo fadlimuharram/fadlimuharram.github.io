@@ -16,12 +16,19 @@ const Content = () => {
 
         <div class="content__desc">
           <p>
-            Hello... let me introduce myself, my name is fadli muharram and i
-            fallen in love with code since 2015, on that year, i started the
-            basic website and codeigniter course and i’ve been build few
-            projects such as news website, library management system and
-            community website, other than that, please feel free to suft my
-            portfolio website
+            Hello, I'm Fadli Muharram, I found my passion and started learning
+            programming since 2015. That year I started a course on web masters
+            and began to enter college. while i was in collage I built several
+            projects like Realtime Chat, Student Attendace, ect{" "}
+          </p>
+          <p>
+            After i finished college, i joined Arkademy to learn advance
+            programming with react, redux, adonis dan aws, on Bootcamp i learned
+            how to build applications in a short time, and i also have
+            experience in deploying on Google Cloud and Azure Cloud.
+          </p>
+          <p>
+            I have a goal to help other with technology, especially programming
           </p>
         </div>
       </div>

@@ -6,6 +6,8 @@ import Detomatoes from "./detomatoes/Detomatoes";
 import Chatting from "./chatting/Chatting";
 import AbsenAndro from "./absenandro/AbsenAndro";
 import AbsenPanel from "./absenpanel/AbsenPanel";
+import Gcommerce from "./gcommerce/Gcommerce";
+import Pokedumb from "./pokedumb/Pokedumb";
 
 const Project = () => (
   <div id="project" className="tmclassName">
@@ -28,6 +30,12 @@ const Project = () => (
         </li>
         <li>
           <AbsenPanel />
+        </li>
+        <li>
+          <Gcommerce />
+        </li>
+        <li>
+          <Pokedumb />
         </li>
       </ul>
     </div>

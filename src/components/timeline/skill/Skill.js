@@ -31,6 +31,7 @@ const Skill = () => (
     </div>
     <h2>Cloud</h2>
     <div class="skill--icon">
+      <i class="devicon-amazonwebservices-plain-wordmark colored" />
       <i class="devicon-heroku-line-wordmark colored" />
     </div>
     <h2>Tools</h2>
@@ -47,6 +48,7 @@ const Skill = () => (
     <div class="skill--icon">
       <i class="devicon-java-plain-wordmark colored" />
       <i class="devicon-android-plain-wordmark colored" />
+      <i class="devicon-react-original colored" />
     </div>
   </div>
 );
