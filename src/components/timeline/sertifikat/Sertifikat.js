@@ -6,16 +6,17 @@ import ReactRedux from "./reactredux/ReactRedux";
 import GraphQLReact from "./graphqlReact/GraphQLReact";
 import CodepolitanAndroidBasic from "./codepolitanAndroidBasic/CodepolitanAndroidBasic";
 import Made from "./made/Made";
-
+import Macd from "./macd/Macd";
 const Sertifikat = () => (
   <div id="serfitikat" className="tmclassName">
-    <WebMaster />
-    <Codeigniter />
+    <Macd />
+    <Made />
+    <CodepolitanAndroidBasic />
     <NjsCourse />
     <ReactRedux />
     <GraphQLReact />
-    <CodepolitanAndroidBasic />
-    <Made />
+    <WebMaster />
+    <Codeigniter />
   </div>
 );
 

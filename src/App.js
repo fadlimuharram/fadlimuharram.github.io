@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactDOM from "react-dom";
 import logo from "./logo.svg";
 import "./style/main.scss";
 
@@ -11,6 +12,9 @@ const MyGoal = React.lazy(() => import("./components/mygoal/MyGoal"));
 const Footer = React.lazy(() => import("./components/footer/Footer"));
 
 class App extends Component {
+  componentDidMount() {
+    document.title = "Fadli Muharram Portofolio";
+  }
   render() {
     return (
       <div className="container">
