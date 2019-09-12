@@ -7,10 +7,13 @@ import GraphQLReact from "./graphqlReact/GraphQLReact";
 import CodepolitanAndroidBasic from "./codepolitanAndroidBasic/CodepolitanAndroidBasic";
 import Made from "./made/Made";
 import Macd from "./macd/Macd";
+import MenjadiGoogleCloudEngineer from "./menjadiGoogleCloud/menjadiGoogleCloud";
+
 const Sertifikat = () => (
   <div id="serfitikat" className="tmclassName">
     <Macd />
     <Made />
+    <MenjadiGoogleCloudEngineer />
     <CodepolitanAndroidBasic />
     <NjsCourse />
     <ReactRedux />

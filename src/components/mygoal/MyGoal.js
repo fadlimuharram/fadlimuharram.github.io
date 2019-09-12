@@ -37,7 +37,7 @@ class MyGoal extends PureComponent {
       hour = minute * 60,
       day = hour * 24;
 
-    this.countDown = new Date("May 06, 2019 00:00:00");
+    this.countDown = new Date("Sep 12, 2020 00:00:00");
     this.interval = setInterval(() => {
       let now = new Date().getTime(),
         distance = this.countDown - now;
@@ -55,7 +55,7 @@ class MyGoal extends PureComponent {
       <div class="targetgoal" id="mygoal">
         <h3 class="heading-secondary">Target Saya Selanjutnya</h3>
         <p class="targetgoal--currentgoal">
-          -- Lulus Sertifikasi Azure Cloud Developer --
+          -- Sertifikasi Internasional --
         </p>
         <ul>
           <li>
