@@ -10,7 +10,7 @@ const Arkademy = () => (
       src: img
     }}
     completed="selesaikan pada September 2019"
-    linkCertificate="https://fadlimuharram.github.io/static/media/Fadli-Muharram-Arkademy.png"
+    linkCertificate="https://www.arkademy.com/"
   />
 );
 
