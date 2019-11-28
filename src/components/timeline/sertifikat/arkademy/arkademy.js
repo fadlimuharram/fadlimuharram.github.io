@@ -9,7 +9,7 @@ const Arkademy = () => (
       alt: 'Arkademy software engineering Bootcamp',
       src: img
     }}
-    completed="selesaikan pada September 2019"
+    completed="selesaikan pada November 2019"
     linkCertificate="https://www.arkademy.com/"
   />
 );
